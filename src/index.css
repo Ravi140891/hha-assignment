@@ -69,3 +69,51 @@ button {
   position: relative;
   top: 145px;
 }
+.slide_container {
+  width: 1440px;
+  height: 100vh;
+  margin: auto;
+  padding: 84px;
+}
+.top-bar {
+  position: relative;
+  height: 40px;
+}
+.menu-btn {
+  position: absolute;
+  right: 190px;
+}
+.menu-btn img {
+  width: 30px;
+}
+.close-btn {
+  position: absolute;
+  right: 220px;
+  top: 0px;
+}
+.close-btn img {
+  width: 30px;
+}
+.slide-section {
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 190px;
+}
+.btn {
+  background-color: pink;
+  padding: 5px 10px;
+}
+.btn:disabled {
+  background-color: rgb(221, 207, 209);
+}
+button:disabled {
+  cursor: not-allowed;
+}
