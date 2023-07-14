@@ -10,7 +10,7 @@ import Inactive_down from "../assets/Line 8.png";
 import { useLevel } from "../context/LevelContext";
 
 const Home = () => {
-  const { levelOne, levelTwo, levelThree, levelFour, levelFive } = useLevel();
+  const { levelOne, levelTwo, levelThree, levelFour } = useLevel();
   console.log(levelThree.completed);
   return (
     <div className="home">
